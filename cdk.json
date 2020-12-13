@@ -1,0 +1,28 @@
+{
+  "app": "python3 app.py",
+  "versionReporting": false,
+  "context": {
+    "owner": "IBM-khalida",
+    "github_repo_url": "https://github.com/kahmed/my-first-cdk-project",
+    "github_profile": "https://github.com/khahmed",
+    "youtube_profile": "",
+    "envs": {
+      "dev": {
+        "region": "us-east-1",
+        "account": "675801125365"
+      },
+      "prod": {
+        "support-team": "khahmed@github",
+        "region": "us-east-1",
+        "account": "675801125365",
+        "encryption": true,
+        "kms_arn": "",
+        "vpc_configs": {
+          "vpc_cidr": "10.83.0.0/20",
+          "cidr_mask": 24,
+          "set_reserve": false
+        }
+      }
+    }
+  }
+}
